@@ -1,0 +1,28 @@
+
+#mono{
+    font-family: monospace;
+    font-weight: lighter;
+    font-size: small;
+}
+#light{
+    background-color: black;
+    color: white;
+    font-size: medium;
+}
+#bold{
+    font-weight: bold;
+}
+#styled{
+    text-decoration:underline;
+}
+.box{
+    margin-top: 10%;
+}
+.head{
+
+}
+.inline a{
+    margin-left: 50px;
+    margin-top: 10px;
+    padding: 10px;
+}
