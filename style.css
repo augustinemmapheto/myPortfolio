@@ -1,4 +1,55 @@
-
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .header nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+        }
+        .banner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+            background-color: #ddd;
+            text-align: center;
+        }
+        .banner img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        .bio-section {
+            display: flex;
+            padding: 20px;
+        }
+        .bio-text {
+            flex: 2;
+        }
+        .bio-image {
+            flex: 1;
+            text-align: center;
+        }
+        .bio-image img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #f4f4f4;
+}
 #mono{
     font-family: monospace;
     font-weight: lighter;
